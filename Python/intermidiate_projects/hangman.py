@@ -17,6 +17,7 @@ def health(lives, word):
     else:
         print("Game over - no more lives")
         print(f"Word not guessed was - {word}")
+        print(test)
         sys.exit()
 
 
